@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [
+    "file.js"
+  ],
+  "names": [
+    "test",
+    "globalThis",
+    "foo"
+  ],
+  "mappings": "AAAA,SAASA,IAAT,GAAgB;AACd,MACE,SAAiBC,UAAU,CAACC,GAD9B,EAEE;AACA,WAAO,IAAP;AACD;;AAED,SAAO,KAAP;AACD",
+  "sourcesContent": [
+    "function test() {\n  if (\n    Math.random() && globalThis.foo\n  ) {\n    return true;\n  }\n\n  return false;\n}\n"
+  ]
+}
